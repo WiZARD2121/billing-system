@@ -1,0 +1,54 @@
+<tr>
+                  <th class="bold">
+                    <label for="net_amt"><strong>Net Amount</strong></label>
+                  </th>
+                  <td>
+                    <input type="text" class="form-control" name="net_amt" id="net_amt" placeholder="Net Amount" readonly>
+                  </td>
+                </tr>
+      
+                <tr>
+                  <th class="bold">
+                    <label for="gst"><strong>GST %</strong></label>
+                  </th>
+                  <td>
+                    <input type="text" class="form-control" name="gst" id="gst" oninput="calculateAmount()" placeholder="GST %">
+                  </td>
+                </tr>
+
+                <tr>
+                    <th class="bold">
+                        <label for="gst_amt"><strong>GST Amount</strong></label>
+                    </th>
+                    <td>
+                        <input type="text" class="form-control" name="gst_amt" id="gst_amt" placeholder="GST Amount" readonly>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th class="bold">
+                        <label for="t_amt"><strong>Total Amount</strong></label>
+                    </th>
+                    <td>
+                        <input type="text" class="form-control" name="t_amt" id="t_amt" placeholder="Total Amount" readonly>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th class="bold">
+                        <label for="round_off"><strong>Rounding By</strong></label>
+                    </th>
+                    <td>
+                        <input type="text" class="form-control" name="round_by" id="round_by" placeholder="Rounding By" readonly>
+                    </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th class="bold">
+                        <label for="round_off"><strong>Rounding Off</strong></label>
+                    </th>
+                    <td>
+                        <input type="text" class="form-control" name="round_off" id="round_off" placeholder="Rounding Off" readonly>
+                    </td>
+                  </tr>
